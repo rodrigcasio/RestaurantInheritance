@@ -17,7 +17,7 @@ This project illustrates key OOP concepts, including:
 - `h_MenuItem.hpp`, `fns_MenuItem.cpp`: `MenuItem` class for menu management.
 
 ## Sample Output
-![Restaurant Hierarchy Output](Screenshot 2025-04-27.png)
+![Restaurant Hierarchy Output](Screenshot2025-04-27.png)
 
 ## Learning Outcomes
 - Mastered C++ inheritance, including virtual inheritance to resolve ambiguity.
