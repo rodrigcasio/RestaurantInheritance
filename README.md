@@ -30,5 +30,5 @@ This is a learning project to demonstrate OOP concepts, not a production applica
 
 ## How to Run
 ```bash
-g++ g++ mainRestaurant.cpp fns_Restaurant.cpp fns_MexicanRestaurant.cpp fns_JapaneseRestaurant.cpp fns_MexicanJapaneseFusion.cpp fns_MenuItem.cpp -o restaurant
+g++ mainRestaurant.cpp fns_Restaurant.cpp fns_MexicanRestaurant.cpp fns_JapaneseRestaurant.cpp fns_MexicanJapaneseFusion.cpp fns_MenuItem.cpp -o restaurant
 ./restaurant
