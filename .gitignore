@@ -1,0 +1,17 @@
+# Executables
+restaurant
+*.exe
+*.out
+*.app
+
+# Compiled Object files
+*.o
+*.obj
+
+# Temporary files
+*.tmp
+*.bak
+
+# Precompiled Headers 
+*.gch
+*.pch
