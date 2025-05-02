@@ -40,7 +40,7 @@ g++ src/mainRestaurant.cpp src/fns_*.cpp -I include -o restaurant
 ![Restaurant Hierarchy Output](Screenshot2025-04-27.png)
 
 ## Learning Outcomes
-- Mastered C++ inheritance, including virtual inheritance to resolve ambiguity.
+- Applied C++ inheritance, including virtual inheritance to resolve ambiguity.
 - Implemented polymorphism with overriden methods.
 - Used vectors for dynamic menu storage.
 - Applied encapsulation with private memebers and public getters.
