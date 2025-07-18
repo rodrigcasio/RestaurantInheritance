@@ -1,53 +1,39 @@
-# Restaurant Inheritance Hierarchy
-C++ Project demonstrating object-oriented programming (OPP) inheritance through a restaurant hierarchy. This is an educational demo to showcase my understanding of single and multiple inheritance in C++.
+# Restaurant Inheritance Hierarchy (C++)
 
-## Features
-- **Restaurant Types**: Base `Restaurant` class with derived `MexicanRestaurant`, `JapaneseRestaurant`, and `MexicanJapaneseFusion` classes.
-- **Menu Management**: `MenuItem` class with vectors for dynamic menu storage.
-- **Polymorphism**: Virtual `describeCuisine()` method overridden for unique restaurant descriptions.
-- **Inheritance**: Single, multiple, and virtual inheritance to model complex relationships and resolve the diamond problem.
+This is a small C++ project I made to practice object-oriented programming (OOP), especially inheritance. The program uses a restaurant theme to show how single, multiple, and virtual inheritance work in C++.
 
-## Purpose
-Developed as part of my C++ learning journey to master OOP concepts, including:
-- **Single Inheritance**: `MexicanRestaurant` and `JapaneseRestaurant` inherit from `Restaurant`.
-- **Multiple Inheritance**: `MexicanJapaneseFusion` inherits from both `MexicanRestaurant` and `JapaneseRestaurant`.
-- **Virtual Inheritance**: Prevents diamond problem issues.
-- **Polymorphism**: Overridden `describeCuisine()` methods for each restaurant type.
+## What does it do?
 
-## Files
-- **Source Files** (`src/`):
-  - `mainRestaurant.cpp`: Main program to test the hierarchy.
-  - `fns_Restaurant.cpp`: Implementation for `Restaurant` class.
-  - `fns_MexicanRestaurant.cpp`: Implementation for `MexicanRestaurant` class.
-  - `fns_JapaneseRestaurant.cpp`: Implementation for `JapaneseRestaurant` class.
-  - `fns_MexicanJapaneseFusion.cpp`: Implementation for `MexicanJapaneseFusion` class.
-  - `fns_MenuItem.cpp`: Implementation for `MenuItem` class.
+- **Creates different types of restaurants** (Mexican, Japanese, and a fusion of both) using classes and inheritance.
+- **Manages menus** for each restaurant using vectors.
+- **Shows how polymorphism works** by letting each restaurant describe its own cuisine.
+- **Demonstrates inheritance** by having some classes inherit from more than one parent (multiple inheritance) and using virtual inheritance to avoid problems.
+- **Prints out information** about each restaurant and their menus.
 
-- **Header Files** (`include/`):
-  - `h_Restaurant.hpp`: Base `Restaurant` class declaration.
-  - `h_MexicanRestaurant.hpp`: `MexicanRestaurant` class declaration.
-  - `h_JapaneseRestaurant.hpp`: `JapaneseRestaurant` class declaration.
-  - `h_MexicanJapaneseFusion.hpp`: `MexicanJapaneseFusion` class declaration.
-  - `h_MenuItem.hpp`: `MenuItem` class declaration.
- 
-## How to Run
-```bash
-g++ src/mainRestaurant.cpp src/fns_*.cpp -I include -o restaurant
-./restaurant
-```
+## Example Output
 
-## Sample Output
+When you run the program, you’ll see output like this (screenshot or text):
+
 ![Restaurant Hierarchy Output](Screenshot2025-04-27.png)
 
-## Learning Outcomes
-- Applied C++ inheritance, including virtual inheritance to resolve ambiguity.
-- Implemented polymorphism with overriden methods.
-- Used vectors for dynamic menu storage.
-- Applied encapsulation with private memebers and public getters.
+## Why did I make this?
 
-## Note
-This is a learning project to demonstrate OOP concepts, not a production application. Future projects will focus on real-world applications like inventory or banking systems.
+I wanted to get more comfortable with C++ classes, inheritance, and how to use vectors. This project helped me understand how single and multiple inheritance work, and how to use virtual inheritance to solve the diamond problem.
+
+## How to Run
+
+1. Make sure you have a C++ compiler (like g++) installed.
+2. Compile the code:
+   ```
+   g++ src/mainRestaurant.cpp src/fns_*.cpp -I include -o restaurant
+   ```
+3. Run the program:
+   ```
+   ./restaurant
+   ```
 
 ## Author
-Rodrigo Casio ([View my Github profile](https://github.com/rodrigcasio))
+
+Rodrigo Casio  
+[My GitHub Profile](https://github.com/rodrigcasio)
 
